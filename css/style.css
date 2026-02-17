@@ -7,10 +7,9 @@ body {
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    font-style: bold;
     font-weight: 700;
-    line-height: 1,16;
-    letter-spacing: 0,03em;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -21,9 +20,8 @@ ul {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    font-style: bold;
-    line-height: 1,16;
-    letter-spacing: 0,03em;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -38,23 +36,22 @@ ul {
 }
 .list a {
     font-weight: 500;
-    font-style: medium;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0,02em;
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
 .address .list {
     color: #434455;
 }
-.address .list:hover {
+.address .list:hover,
+.address .list:focus {
     color: #404BBF;
 }
 .address a {
     font-size: 16px;
-    font-style: regular;
     line-height: 1.5;
-    letter-spacing: 0,02em;
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
 .sec-back {
@@ -63,22 +60,20 @@ ul {
 h1 {
     color: #FFFFFF;
     font-weight: 700;
-    font-style: bold;
     font-size: 56px;
     text-decoration: none;
     line-height: 1.07;
-    letter-spacing: 0,02em;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 .btn {
     color:#FFFFFF;
     background-color: #4D5AE5;
-    font-style: medium;
     font-weight: 500;
     font-size: 16px;
     text-decoration: none;
     line-height: 1.5;
-    letter-spacing: 0,04em;
+    letter-spacing: 0.04em;
     text-align: center;
     border: none;
     cursor: pointer;
@@ -92,24 +87,21 @@ h1 {
 h3 {
     font-weight: 500;
     font-size: 20px;
-    font-style: medium;
     line-height: 1.2;
-    letter-spacing: 0,02em;
+    letter-spacing: 0.02em;
 }
 p {
     color: #434455;
     font-weight: 400;
-    font-style: regular;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0, 02em;
+    letter-spacing: 0.02em;
 }
 h2 {
     font-weight: 700;
-    font-style: bold;
     font-size: 36px;
     line-height: 1.1;
-    letter-spacing: 0,02em;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 .section-team {
@@ -126,8 +118,8 @@ footer {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1,16;
-    letter-spacing: 0,03em;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
 }
