@@ -118,6 +118,7 @@ ul {
 }
 
 .descriptions-subtitle {
+    color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -130,7 +131,7 @@ ul {
     background-color: #f4f4fd;
 }
 .team-item {
-    color:#ffffff;
+    background-color:#ffffff;
 }
 
 .low-part {
@@ -139,6 +140,8 @@ ul {
 
 .footer-par {
     color: #E7E9FC;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .low-studio {
@@ -151,4 +154,9 @@ ul {
     text-decoration: none;
     text-transform: uppercase;
 }
-
+:root {
+    --footer-text-color: #F4F4FD;
+}
+.footer-par {
+    color: var(--footer-text-color);
+}
