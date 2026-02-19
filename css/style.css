@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: #FFFFFF;
 }
 
@@ -9,7 +9,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.6;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
@@ -20,27 +20,27 @@ ul {
 }
 
 .logo-studio {
+    color:#2E2F42;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
 }
+.nav-link {
+    color: #2E2F42;
+}
 
-.list .link-one:hover,
-.list .link-one:active {
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
     color: #404BBF;
     text-decoration: underline;
 }
 
-.list .links:hover {
-    color: #404BBF;
-
-}
-
-.list a {
+.nav-list a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -48,16 +48,17 @@ ul {
     text-decoration: none;
 }
 
-.address .list {
+.contacts-list .contacts-links {
     color: #434455;
 }
-
-.address .list:hover,
-.address .list:focus {
+.contacts {
+    font-style: normal;
+}
+.contacts-list .contacts-links:hover,
+.contacts-list .contacts-links:focus {
     color: #404BBF;
 }
-
-.address a {
+.contacts-list a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -68,7 +69,7 @@ ul {
     background-color: #2E2F42;
 }
 
-h1 {
+.hero-title {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
@@ -91,7 +92,8 @@ h1 {
     cursor: pointer;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
     background-color: #404BBF;
 }
 
